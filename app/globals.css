@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand palette */
+  --color-ink: #0f172a;
+  --color-ink-soft: #1e293b;
+  --color-paper: #f6f3ec;
+  --color-primary: #234185;
+  --color-accent: #3EB5E8;
+  --color-accent-light: #78CBEF;
+  --color-gold: #e7b267;
+  --color-coral: #ff7a59;
+  --color-mist: #8899b0;
+
+  /* Fonts */
+  --font-display: var(--font-bricolage), sans-serif;
+  --font-body: var(--font-jakarta), sans-serif;
+  --font-data: var(--font-plex-mono), monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-ink);
+}
+
+/* Visible keyboard focus states on all interactive elements */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-accent-light);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

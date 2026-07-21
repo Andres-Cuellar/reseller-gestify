@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   title: "Gestify — CRM profesional para agencias colombianas",
   description:
     "CRM omnicanal completo para agencias: WhatsApp, email, SMS, calendarios, embudos y automatizaciones desde $190.000 COP al mes para 20 clientes. Ahorra más del 80% frente al plan directo en dólares.",
+  icons: [{ rel: "icon", url: "/icono.png" }],
 };
 
 export default function RootLayout({

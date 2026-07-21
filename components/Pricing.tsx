@@ -9,6 +9,7 @@ const plans = [
     price: "80.000",
     subaccounts: "1 subcuenta",
     popular: false,
+    href: "https://mpago.la/1aV17pC",
     features: [
       "CRM omnicanal completo",
       "Panel de administración",
@@ -23,6 +24,7 @@ const plans = [
     price: "190.000",
     subaccounts: "20 subcuentas",
     popular: true,
+    href: "https://www.mercadopago.com.co/subscriptions/checkout?preapproval_plan_id=f122679cd2504ebf8c38f53f2ffa055a",
     features: [
       "CRM omnicanal completo",
       "Panel de administración",
@@ -37,6 +39,7 @@ const plans = [
     price: "320.000",
     subaccounts: "Sin límite",
     popular: false,
+    href: "https://mpago.la/2Pv5J4f",
     features: [
       "CRM omnicanal completo",
       "Panel de administración",
@@ -135,7 +138,7 @@ export default function Pricing() {
               </ul>
 
               <a
-                href="https://reseller.gstf.us/pagos"
+                href={plan.href}
                 className={
                   plan.popular
                     ? "mt-8 block rounded-full bg-accent px-6 py-3 text-center text-sm font-semibold text-ink transition-transform hover:scale-[1.03] hover:bg-accent-light active:scale-95"

@@ -12,7 +12,7 @@ const addons = [
   },
   {
     name: "WhatsApp API Oficial",
-    price: "$15 USD/mes",
+    price: "$12 USD/mes",
     description:
       "Para clientes con alto volumen de mensajes. Integración directa sin intermediarios.",
   },

@@ -101,7 +101,7 @@ export default function WhatsappAddon() {
                   Precio mensual
                 </dt>
                 <dd className="mt-1 font-data text-base font-semibold text-paper">
-                  $15 USD/mes
+                  $12 USD/mes
                 </dd>
               </div>
               <div>

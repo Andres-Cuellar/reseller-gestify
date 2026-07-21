@@ -23,7 +23,7 @@ export default function SavingsChip({ className = "" }: SavingsChipProps) {
         }
         transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
       />
-      90%+ ahorro
+      80%+ ahorro
     </span>
   );
 }

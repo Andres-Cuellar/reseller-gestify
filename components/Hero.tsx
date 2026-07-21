@@ -74,7 +74,7 @@ export default function Hero() {
           variants={staggerItem}
           className="font-data text-xs text-mist"
         >
-          Tu portal: app.gstf.us · Acceso inmediato tras el pago
+          Tu portal: ghl · Acceso inmediato tras el pago
         </motion.p>
 
         <motion.div variants={staggerItem} className="mt-6 w-full">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, Plus_Jakarta_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import MetaPixel from "@/components/MetaPixel";
 
 const bricolage = Bricolage_Grotesque({
   variable: "--font-bricolage",
@@ -38,6 +39,7 @@ export default function RootLayout({
       className={`${bricolage.variable} ${jakarta.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-ink font-body text-paper">
+        <MetaPixel />
         {children}
       </body>
     </html>
